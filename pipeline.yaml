@@ -1,0 +1,14 @@
+type: chart
+builds:
+  - image: samsung_cnct/nodelabelbot5000
+    context: nodelabelbot5000
+    chart: nodelabelbot5000
+    value: image.repo
+    dockerContext: .
+deployments:
+  - chart: nodelabelbot5000
+    timeout: 600
+    retries: 2
+    release: nodelabelbot5000
+prod:
+  doDeploy: none
