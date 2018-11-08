@@ -5,5 +5,5 @@
 
 name: nodelabelbot5000
 image:
-  repo: quay.io/samsung_cnct/nodelabelbot5000:prod
+   repo: quay.io/samsung_cnct/nodelabelbot5000:0.1.1
 
